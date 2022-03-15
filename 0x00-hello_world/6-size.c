@@ -9,17 +9,17 @@
 */
 int main(void)
 {
-int i;
 char c;
+int i;
 long int l;
 long long int ll;
 float f;
 
-printf("the size of an int is: %lu byte(s)\n", (unsigned long) sizeof(i));
-printf("the size of an  char is: %lu byte(s)\n", (unsigned long) sizeof(c));
-printf("the size of an long int is: %lu byte(s)\n", (unsigned long) sizeof(l));
-printf("the size of an long long int is: %lu byte(s)\n", (unsigned long) sizeof(ll));
-printf("the size of an float is: %lu byte(s)\n", (unsigned long) sizeof(f));
+printf("the size of an char is: %d byte(s)\n", (int) sizeof(c));
+printf("the size of an int is: %d byte(s)\n", (int) sizeof(i));
+printf("the size of an long int is: %d byte(s)\n", (int) sizeof(l));
+printf("the size of an long long int is: %d byte(s)\n", (int) sizeof(ll));
+printf("the size of an float is: %d byte(s)\n", (int) sizeof(f));
 
 return (0);
 }
